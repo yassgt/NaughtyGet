@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 from scidownl import scihub_download
 import streamlit as st
-from st_aggrid import AgGrid
+
 
 
 st.set_page_config(layout="wide")
