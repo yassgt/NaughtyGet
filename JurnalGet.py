@@ -80,4 +80,4 @@ with st.sidebar:
 
 # HTML(df.to_html(render_links=True, escape=False))
 
-AgGrid(df)
+st.dataframe(df)
