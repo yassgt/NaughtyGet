@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 from scidownl import scihub_download
 import streamlit as st
-
+st.set_page_config(layout="wide")
 
 search_term = "Erna Budhiarti Nababan"
 # change this for different page no
